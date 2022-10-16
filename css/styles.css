@@ -96,7 +96,24 @@ ol li, ul li {
     background-color: #c00;
 }
 a {
+    color: #007bff;
+}
+a {
     color: #232323;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+}
+a {
+    color: #007bff;
+}
+a {
+    color: #232323;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0;
+    outline: none;
 }
 .horizontal-slide-links>* .anima:after {
     bottom: 0;
@@ -194,8 +211,21 @@ a {
 .breadcrumb__menu a.active {
     color: #c00;
 }
-
-
+section, small, span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+small {
+    font-size: 80%;
+}
+figure, img {
+    position: relative;
+}
 
 
 
@@ -204,10 +234,99 @@ a {
 
 .main {
     height: 100vh;
-    /* background-color: #f0f0f0; */
 }
 
+.footer, .footer a {
+    color: #fff;
+}
 .footer {
-    height: 100px;
     background: #2b3139;
+    padding: 1.5rem 0 7.5rem;
+    position: relative;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+.col-lg-2 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.footer-copyright {
+    position: absolute;
+    bottom: 1.5rem;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+.col-lg-8 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.footer-copyright__logo {
+    width: auto;
+    height: 2.7rem;
+    margin: 0 auto 1.2rem;
+    display: block;
+}
+.footer, .footer a {
+    color: #fff;
+}
+.footer-copyright small {
+    font: 400 0.6rem/1.3em futura-pt,Geneva,Arial,sans-serif;
+    letter-spacing: .05rem;
+}
+.footer__link {
+    font: 400 1.2rem/1.3em futura-pt,Geneva,Arial,sans-serif;
+    display: inline-block;
+    letter-spacing: .06em;
+    padding: 0.9rem 2rem;
+    width: 95%;
+    margin-right: 0.25rem;
+}
+.footer__link .svg {
+    width: 20px;
+    height: auto;
+    transform: rotate(90deg) scaleX(.7);
+    transform-origin: center center;
+    float: right;
+}
+.footer-sites__list {
+    display: none;
+    background-color: #10161b;
+}
+.footer-sites__list.active {
+    display: block;
+}
+#footer-hola-sites .footer-sites__list.active, #footer-int-sites .footer-sites__list.active, .footer-policy.active nav, .footer-sites.active nav {
+    display: block;
+    text-align: left;
+}
+.footer-sites__list a {
+    padding: 0.5rem 2rem;
+    border-bottom: 1px solid #2b3139;
+    font-size: .8rem;
+    font-weight: 900;
+}
+.footer-socialmedia {
+    text-align: center;
+    margin: 1.5rem 0 2rem;
+    padding: 0 1.5rem;
+    display: table;
+    width: 100%;
+}
+.footer-socialmedia ul {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-socialmedia .social-nav__link .svg {
+    height: 18px;
 }

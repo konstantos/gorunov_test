@@ -15,6 +15,35 @@
     .container {
         max-width: 100%;
     }
+    .footer {
+        padding-top: 2rem;
+    }
+    .footer-copyright__logo {
+        height: 3rem;
+    }
+    .footer-sites__list {
+        background-color: transparent;
+    }
+    #footer-hola-sites .footer-sites__list.active, #footer-int-sites .footer-sites__list.active {
+        margin-top: 0.5rem;
+    }
+    .footer-sites__list a {
+        border-right: 1px solid #fff;
+        border-bottom: none;
+        display: inline-block;
+        padding: 0 0.5rem;
+    }
+    .footer-policy {
+        display: block;
+        margin-bottom: 0;
+    }
+    .footer-policy a {
+        display: inline-block;
+        margin-right: 0.2rem;
+    }
+    .footer-socialmedia {
+        padding: 0 1rem 0 0;
+    }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
     .header-categories-mini nav, .header-categories nav {
@@ -65,10 +94,100 @@
     .site-header-mini-links .breadcrumb__menu ol {
         justify-content: center;
     }
+    .col-lg-2 {
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+    .col-lg-8 {
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+    .footer-copyright {
+        position: relative;
+        padding: 0;
+        bottom: 0;
+    }
+    .footer-links {
+        margin-top: 0.7rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footer-copyright__logo {
+        margin-left: auto;
+    }
+    .footer-copyright small {
+        text-align: center;
+        display: block;
+        margin-top: 0.6rem;
+    }
+    .footer-policy, .footer-sites {
+        float: left;
+        margin-right: 0.2rem;
+        position: relative;
+    }
+    .footer__link {
+        font-size: .75rem;
+        padding: 0;
+        width: auto;
+    }
+    .footer__link .svg {
+        width: 14px;
+        margin-left: 4px;
+        margin-top: 3px;
+    }
+    .footer__link .svg.active {
+        transform: rotate(-90deg);
+    }
+    .footer-policy.active nav, .footer-sites.active nav {
+        position: absolute;
+        background-color: transparent;
+        width: 500%;
+        margin-top: 0.5rem;
+    }
+    .footer-policy.active a, .footer-sites.active a {
+        display: inline;
+        background-color: transparent;
+        padding: 0 0.5rem;
+        border-right: 1px solid #fff;
+        border-bottom: 0;
+        color: #fff;
+    }
+    .footer-policy.active a:first-child, .footer-sites.active a:first-child {
+        padding-left: 0;
+    }
+    .footer-policy {
+        display: inline-block!important;
+    }
+    .footer-socialmedia {
+        margin-top: 0;
+    }
 }
+
+
+
+
 @media (min-width: 1150px) {
     .header-top.container, .site-header-mini .header-categories-min.container, .site-header-mini_top.container, .site-header .header-categories.container {
         max-width: 1440px;
+    }
+    .container {
+        max-width: 1150px;
+    }
+    .footer {
+        padding-bottom: 2rem;
+    }
+    .footer {
+        padding-bottom: 0.1rem;
+        text-align: center;
+    }
+    .footer .container {
+        margin: 0 auto;
+    }
+    .footer-socialmedia {
+        margin-top: 0.5rem;
+    }
+    .footer-socialmedia a {
+        margin-right: 0.5rem;
     }
 }
 
