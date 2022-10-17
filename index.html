@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="comebacker/css.css" />
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="comebacker/script.js"></script>
 </head>
 <body>
 
@@ -485,7 +488,29 @@
         </div>
     </footer>
 
-    <script src="js/jquery-3.6.0.min.js"></script>
+
     <script src="js/scripts.js"></script>
+        <!-- <comebacker> -->
+    <div id="comebacker">
+        <div class="close-undermodal"></div>
+        <div class="over-window">
+            <div class="close-over"></div>
+            <div class="title-comebacker">
+                <div>Order today!</div>
+                Only: 15 $.
+                <div>50% discount</div>
+            </div>
+            <div class="form">
+                <form method="post" action="">
+                    <input type="text" name="name" value="" placeholder="Name" />
+                    <input type="text" name="phone" value="" placeholder="Phone" />
+                    <!-- <input type="submit" name="submit" value="Order" /> -->
+                    <button class="main-link comebacker-btn" type="submit">Order</button>
+                </form>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!-- </comebacker> -->
 </body>
 </html>
