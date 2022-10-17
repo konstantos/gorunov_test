@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: Libre Baskerville,Georgia,Times New Roman,Times,serif;
     font-size: 1rem;
@@ -512,6 +515,12 @@ figure, img {
 .img-580 {
     height: 100vw;
 }
+.picture-container.img-530 img {
+    width: calc(100% - 10px);
+}
+.img-530 {
+    height: 80vw;
+}
 .first {
     display: block;
     width: 100%;
@@ -609,4 +618,21 @@ span.discountс {
 }
 .order_bottom span {
     color: #c00;
+}
+.news__body-comment h2 {
+    border-bottom: 1px solid #c4c4c4;
+    font-weight: 700;
+}
+.comment {
+    padding: 15px 0 20px 75px;
+    position: relative;
+    border-bottom: 1px solid #c4c4c4;
+    font-size: 100%;
+}
+.ava {
+    position: absolute;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    top: 21px;
 }

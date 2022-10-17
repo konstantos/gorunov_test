@@ -110,6 +110,12 @@
     .img-720 {
         height: 720px;
     }
+    .img-530 {
+        height: 530px;
+    }
+    .picture-container.img-530 img {
+        width: 100%;
+    }
     .left-img {
         margin: 9px 20px 0px 0px;
     }
